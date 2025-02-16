@@ -460,7 +460,7 @@ body {
 }
 
 
-@media screen and (max-width:599px)and (min-width:500px) {
+@media screen and (max-width:699px)and (min-width:100px) {
     .container {
         .headone {
             grid-area: headone;
@@ -517,7 +517,7 @@ body {
     }
 }
 
-@media screen and (max-width:1000px) and (min-width:600px) {
+@media screen and (max-width:1000px) and (min-width:700px) {
     .container {
         .headone {
             grid-area: headone;
