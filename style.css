@@ -18,6 +18,7 @@ p {
 body {
     max-width: 100%;
     overflow-x: hidden;
+    max-width: 100vw;
 }
 
 
@@ -27,7 +28,6 @@ body {
     /*make content center*/
     width: 70vw;
     margin-top: -8vw;
-
     padding-top: 10px;
 
     h2 {
@@ -74,6 +74,38 @@ body {
         font-weight: 250;
         padding-top: 25px;
         line-height: 45px;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    h1 {
+        font-size: 12vw;
+    }
+
+    .title {
+
+        h2 {
+            font-size: 18px;
+            margin-left: -40px;
+        }
+    }
+
+    .goat {
+        margin-top: -10px;
+        width: 100vw;
+    }
+
+    .caption {
+        width: 70vw;
+        margin-right: 13vw;
+        font-size: 10px;
+    }
+
+    .one {
+        p {
+            font-size: 15px;
+            width: 70vw;
+        }
     }
 }
 
@@ -189,6 +221,7 @@ body {
     .tiger {
         position: absolute;
         bottom: 0;
+        width: 50vw;
 
         img {
             width: 110vw;
@@ -199,19 +232,21 @@ body {
         }
 
         div {
-            width: 95rem;
-            height: 95rem;
+            width: 90vw;
+            height: 90vw;
             background-color: #E4B125;
             z-index: 2;
             position: absolute;
-            margin-top: -70rem;
+            margin-top: -70vw;
             border-radius: 100rem;
-            margin-left: -20rem;
+            margin-left: -10vw;
 
         }
 
     }
 }
+
+
 
 @media screen and (max-width:1000px) {
     .forest {
@@ -236,9 +271,10 @@ body {
             }
 
             div {
-                width: 800px;
-                height: 800px;
-                margin-top: -500px;
+                width: 1000px;
+                height: 1000px;
+                margin-top: -700px;
+                margin-left: -200px;
             }
         }
     }
@@ -293,6 +329,27 @@ body {
     margin-left: -8px;
     margin-right: -8px;
     margin-bottom: -8px;
+
+    .headone {
+        p {
+            width: 25vw;
+            line-height: 45px;
+        }
+    }
+
+    .headtwo {
+        p {
+            width: 25vw;
+            line-height: 45px;
+        }
+    }
+
+    .headthree {
+        p {
+            width: 25vw;
+            line-height: 45px;
+        }
+    }
 }
 
 .container div {
@@ -327,7 +384,8 @@ body {
 
 }
 
-@media screen and (max-width:1000px) {
+
+@media screen and (max-width:600px) {
     .container {
         .headone {
             grid-area: headone;
@@ -364,6 +422,57 @@ body {
                 width: 40vw;
                 font-size: 2vw;
                 line-height: 3vh;
+            }
+        }
+
+        .bean {
+            grid-area: bean;
+        }
+
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: "headone lemur"
+        "parrot headtwo"
+        "headthree bean"
+    }
+}
+
+@media screen and (max-width:1000px) and (min-width:601px) {
+    .container {
+        .headone {
+            grid-area: headone;
+
+            p {
+                width: 40vw;
+                font-size: 2vw;
+                line-height: 5vh;
+            }
+        }
+
+        .lemur {
+            grid-area: lemur;
+        }
+
+        .headtwo {
+            grid-area: headtwo;
+
+            p {
+                width: 40vw;
+                font-size: 2vw;
+                line-height: 5vh;
+            }
+        }
+
+        .parrot {
+            grid-area: parrot
+        }
+
+        .headthree {
+            grid-area: headthree;
+
+            p {
+                width: 40vw;
+                font-size: 2vw;
+                line-height: 5vh;
             }
         }
 
@@ -599,39 +708,6 @@ body {
             width: 63vw;
         }
 
-        p {
-            font-size: 15px;
-            width: 70vw;
-        }
-    }
-}
-
-@media screen and (max-width:1000px) {
-    h1 {
-        font-size: 12vw;
-    }
-
-    .title {
-
-        h2 {
-            font-size: 18px;
-            margin-left: -40px;
-        }
-    }
-
-    .goat {
-        margin-top: -10px;
-        width: 200vw;
-        margin-left: -320px;
-    }
-
-    .caption {
-        width: 70vw;
-        margin-right: 13vw;
-        font-size: 10px;
-    }
-
-    .one {
         p {
             font-size: 15px;
             width: 70vw;
