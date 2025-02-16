@@ -167,11 +167,11 @@ body {
     }
 
     .scroll-container {
-        margin-top: -500px;
+        margin-top: -700px;
 
         .card {
-            height: 300px;
-            width: 300px;
+            height: 500px;
+            width: 400px;
         }
     }
 }
@@ -460,15 +460,16 @@ body {
 }
 
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:599px)and (min-width:500px) {
     .container {
         .headone {
             grid-area: headone;
+            height: 600px;
 
             p {
-                width: 40vw;
-                font-size: 2vw;
-                line-height: 3vh;
+                width: 80vw;
+                font-size: 4vw;
+                line-height: 6vh;
             }
         }
 
@@ -478,11 +479,12 @@ body {
 
         .headtwo {
             grid-area: headtwo;
+            height: 600px;
 
             p {
-                width: 40vw;
-                font-size: 2vw;
-                line-height: 3vh;
+                width: 80vw;
+                font-size: 4vw;
+                line-height: 6vh;
             }
         }
 
@@ -492,11 +494,12 @@ body {
 
         .headthree {
             grid-area: headthree;
+            height: 600px;
 
             p {
-                width: 40vw;
-                font-size: 2vw;
-                line-height: 3vh;
+                width: 80vw;
+                font-size: 4vw;
+                line-height: 6vh;
             }
         }
 
@@ -504,14 +507,17 @@ body {
             grid-area: bean;
         }
 
-        grid-template-columns: 1fr 1fr;
-        grid-template-areas: "headone lemur"
-        "parrot headtwo"
-        "headthree bean"
+        grid-template-columns: 1fr;
+        grid-template-areas: "headone"
+        "lemur"
+        "headtwo"
+        "parrot"
+        "headthree"
+        "bean"
     }
 }
 
-@media screen and (max-width:1000px) and (min-width:601px) {
+@media screen and (max-width:1000px) and (min-width:600px) {
     .container {
         .headone {
             grid-area: headone;
