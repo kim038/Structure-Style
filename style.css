@@ -117,12 +117,23 @@ body {
     }
 }
 
+@media screen and (max-width:1000px) {
+    .learn {
+        padding-top: -1vh;
+    }
+
+    .click {
+        font-size: 20px;
+        width: 50vw;
+    }
+}
+
 .learn {
     text-transform: uppercase;
     font-family: "Albert Sans", serif;
     font-size: 40px;
     /*make content center*/
-    padding-top: 30vh;
+    padding-top: 20vh;
     padding-bottom: 50px;
     text-align: center;
 }
@@ -172,6 +183,13 @@ body {
 @media screen and (max-width:1000px) {
     .learn {
         font-size: 30px;
+    }
+
+    .click {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60vw;
     }
 
     .scroll-container {
