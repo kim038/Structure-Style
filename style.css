@@ -246,9 +246,71 @@ body {
     }
 }
 
+@media screen and (max-width:649px) and (min-width:100px) {
+    .forest {
+        h2 {
+            font-size: 30px;
+            width: 50vw;
+        }
 
+        .overlay {
+            padding-bottom: 35rem;
 
-@media screen and (max-width:1000px) {
+            p {
+                font-size: 15px;
+            }
+        }
+
+        .tiger {
+            margin-top: -50px;
+
+            img {
+                width: 120vw;
+            }
+
+            div {
+                width: 100vw;
+                height: 100vw;
+                margin-top: -60vh;
+                margin-left: -20vw;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:799px) and (min-width:650px) {
+    .forest {
+        h2 {
+            font-size: 30px;
+            width: 50vw;
+        }
+
+        .overlay {
+            padding-bottom: 50rem;
+
+            p {
+                font-size: 15px;
+            }
+        }
+
+        .tiger {
+            margin-top: -50px;
+
+            img {
+                width: 120vw;
+            }
+
+            div {
+                width: 100vw;
+                height: 100vw;
+                margin-top: -70vh;
+                margin-left: -20vw;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:1000px) and (min-width:800px) {
     .forest {
         h2 {
             font-size: 30px;
@@ -318,6 +380,7 @@ body {
 
         p {
             font-size: 15px;
+            width: 60vw;
         }
     }
 }
@@ -348,6 +411,18 @@ body {
         p {
             width: 25vw;
             line-height: 45px;
+        }
+    }
+
+    .parrot {
+        img {
+            object-position: 65% 50%;
+        }
+    }
+
+    .lemur {
+        img {
+            object-position: 65%;
         }
     }
 }
@@ -638,8 +713,52 @@ body {
 
 }
 
+@media screen and (max-width:799px) {
+    .essential {
+        padding-bottom: 1px;
 
-@media screen and (max-width:1000px) {
+        h2 {
+            font-size: 30px;
+            width: 65vw;
+        }
+
+        .ocean {
+
+            .image {
+                height: 55vw;
+                background-size: cover;
+                width: 30vw;
+            }
+
+            p {
+                font-size: 13px;
+                width: 30vw;
+                padding: 0;
+                line-height: 35px;
+
+            }
+        }
+
+        .tree {
+            margin-top: 300px;
+
+            .image {
+                height: 55vw;
+                background-size: cover;
+                width: 30vw;
+            }
+
+            p {
+                font-size: 13px;
+                width: 30vw;
+                padding: 0;
+                line-height: 35px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:1000px) and (min-width:800px) {
     .essential {
         h2 {
             font-size: 30px;
@@ -660,6 +779,8 @@ body {
         }
 
         .tree {
+            margin-top: 150px;
+
             .image {
                 height: 40vw;
             }
@@ -678,7 +799,7 @@ body {
     margin-left: -8px;
     margin-right: -8px;
     padding-bottom: 100px;
-    margin-top: 120vh;
+    margin-top: 80vh;
 
 
     h2 {
@@ -701,7 +822,7 @@ body {
 
 @media screen and (max-width:1000px) {
     .final {
-        margin-top: 700px;
+        margin-top: 55vh;
 
         h2 {
             font-size: 30px;
