@@ -138,6 +138,13 @@ body {
     text-align: center;
 }
 
+.click {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .main {
     margin-top: 700px;
 }
